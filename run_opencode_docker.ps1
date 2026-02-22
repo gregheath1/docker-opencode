@@ -16,7 +16,7 @@ docker run --rm -it `
   -v "$env:USERPROFILE\.local\state\opencode:/home/ubuntu/.local/state/opencode" `
   -v "$env:USERPROFILE\.config\opencode:/home/ubuntu/.config/opencode" `
   -v "$env:USERPROFILE\opencode:/home/ubuntu/opencode" `
-  -v "$PWD:/workspace" `
+  -v "${PWD}:/workspace" `
   -w /workspace `
   opencode-ai:latest `
   opencode
