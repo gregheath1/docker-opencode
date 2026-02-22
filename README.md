@@ -5,7 +5,6 @@ Simple Ubuntu Docker image with opencode.ai. All credentials are kept on the hos
 ## Prerequisites
 
 - Docker installed
-- For Windows: WSL installed
 
 ## Build
 
@@ -23,12 +22,12 @@ docker build -t opencode-ai:latest .
 
 **Linux:**
 ```bash
-./run.sh
+./run_opencode_docker.sh
 ```
 
-**Windows (WSL):**
-```bash
-./run.sh
+**Windows (PowerShell):**
+```powershell
+.\run_opencode_docker.ps1
 ```
 
 ## Volume Mounts
